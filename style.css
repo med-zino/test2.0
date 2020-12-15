@@ -1,0 +1,133 @@
+body {
+ margin: 0%;
+ padding: 0;
+}
+.effo ,html {
+margin-bottom: 20px;}
+.navbar {
+    margin: 0;
+    background-color: cornflowerblue;
+    background-size: cover;
+    height: 100%;
+    overflow: visible;
+}
+
+
+.cntr
+{
+    vertical-align: middle;
+    text-align: center;
+}
+.points-dem{
+    padding-top: 14px;
+    font-size: xxx-large;
+}
+
+
+.first-list{
+    text-align : center ;
+    
+}
+
+.party01{
+   
+    margin-bottom: 20px;
+    
+}
+
+.illu01{
+height: 450px;
+width: 550px;
+}
+
+.cent1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ananas{
+    height: 400px;
+    width: 240px;
+    position: relative;
+    animation: animate 0.4s ease infinite;;
+}
+
+
+.ananas2{
+    height: 400px;
+    width: 240px;
+    position: relative;
+    animation: animate2 0.4s ease infinite;;
+}
+
+.ananas3{
+    height: 400px;
+    width: 240px;
+    position: relative;
+    animation: animate3 0.8s ease infinite;;
+}
+
+.parallax {
+      /* The image used */
+  background-image: url("./pool2.0.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("./pool.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+
+@keyframes animate
+{
+    0%,100%{
+        transform: translateY(-8px);
+    }
+    
+    50%{
+        transform: translateY(8px);
+    }
+}
+
+@keyframes animate2
+{
+    0%,100%{
+        transform: translateX(-8px);
+    }
+    
+    50%{
+        transform: translateX(8px);
+    }
+}
+@keyframes animate3
+{
+    0%{
+        
+-ms-transform: rotate(90deg); /* IE 9 */
+transform: rotate(90deg);
+    }
+}
+
